@@ -99,8 +99,8 @@ async function setMetaData(blobName) {
 }
 
 (async () => {
-  // await uploadBlob('test.txt', 'Hello, Azure Blob Storage!');
-  // await listBlobs();
+  await uploadBlob('test.txt', 'Hello, Azure Blob Storage!');
+  await listBlobs();
   // await downloadBlob('test.txt');
   // await createContainer();
   // await getProperties("test.txt");
